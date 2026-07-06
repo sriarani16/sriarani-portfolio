@@ -68,7 +68,6 @@ portfolio/
 ### 🛒 Online Bookstore Management System
 - Full-stack web application for managing books, inventory, and customers
 - Tech: Spring Boot, React, TypeScript, PostgreSQL, REST APIs
-- GitHub: https://github.com/sriarani16/Online-Bookstore-Management-System
 
 ### ☁️ Cloud-Based Healthcare Application
 - AWS-based healthcare management system with notifications and storage
