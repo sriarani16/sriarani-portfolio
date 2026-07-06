@@ -1,73 +1,112 @@
-# React + TypeScript + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 👋 About the Project
 
-Currently, two official plugins are available:
+This is my personal portfolio website showcasing my skills, projects, and experience as a Software Engineer / Full-Stack Developer.  
+It is designed to present my work in a clean, responsive, and professional format for recruiters and collaborators.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript / TypeScript
+- HTML5
+- CSS3
+- Tailwind CSS
+- Git & GitHub
+- Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📌 Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Responsive design (mobile, tablet, desktop)
+- Hero section with professional introduction
+- About section highlighting education and experience
+- Skills categorized by domain
+- Projects section with GitHub links and screenshots
+- Contact section with email and social links
+- Clean UI with modern styling using Tailwind CSS
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📁 Project Structure
+portfolio/
+├── public/
+│ ├── profile.jpg
+│ ├── project-images/
+│
+├── src/
+│ ├── components/
+│ │ ├── Hero.jsx
+│ │ ├── About.jsx
+│ │ ├── Skills.jsx
+│ │ ├── Projects.jsx
+│ │ ├── Contact.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│
+├── package.json
+└── README.md
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home](./public/home.png)
+
+### Projects Section
+![Projects](./public/projects.png)
+
+---
+
+## 💼 Projects Highlighted
+
+### 🛒 Online Bookstore Management System
+- Full-stack web application for managing books, inventory, and customers
+- Tech: Spring Boot, React, TypeScript, PostgreSQL, REST APIs
+- GitHub: https://github.com/sriarani16/Online-Bookstore-Management-System
+
+### ☁️ Cloud-Based Healthcare Application
+- AWS-based healthcare management system with notifications and storage
+- Tech: AWS, React, TypeScript, DynamoDB, S3
+
+### 👁️ Face Recognition System
+- Real-time face detection using OpenCV and Python
+- Tech: Python, OpenCV, NumPy
+
+### 🌍 GIS-Based Park Location Analysis
+- Spatial analysis for urban planning using ArcGIS Pro
+- Tech: GIS, ArcGIS Pro, Data Analysis
+
+---
+
+## 📬 Contact
+
+- 📧 Email: arani.suren1630@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/sriarani-surenther  
+- 💻 GitHub: https://github.com/sriarani16  
+- 📍 Location: Hamilton, New Zealand  
+
+---
+
+## 🎯 Purpose
+
+This portfolio is built to:
+- Showcase my technical skills and projects
+- Demonstrate full-stack development experience
+- Support applications for Graduate Software Engineer roles
+
+---
+
+## ⚡ Future Improvements
+
+- Add live deployment for all projects
+- Integrate contact form with EmailJS / backend API
+- Improve animations and UI transitions
+- Add blog section for technical writing
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
