@@ -1,5 +1,22 @@
 const projects = [
   {
+    title: "Smart Pasture Prediction System",
+    description:
+      "The Smart Pasture Prediction System is a machine learning application that predicts pasture groThe Smart Pasture Prediction System is a machine learning application that predicts pasture growth using environmental factors such as rainfall, temperature, soil moisture, and seasonal patterns.",
+    technologies: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit‑learn",
+      "Joblib",
+      "Matplotlib",
+      "Streamlit"
+    ],
+    github: "https://github.com/sriarani16/smart-pasture-prediction",
+    demo: "#",
+    image: "/pasture.png",
+  },
+  {
     title: "Online Bookstore Management System",
     description:
       "Full-stack web application for managing books, inventory, and customer interactions. Built using Spring Boot, React, TypeScript, and PostgreSQL.",
